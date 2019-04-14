@@ -1,1 +1,14 @@
 #!/usr/bin/env ruby
+require_relative "../lib/turn.rb"
+
+puts "given the board below:"
+
+board = [" ", " "," "," "," "," "," "," "," "] 
+display_board(board)
+
+
+turn(board)
+
+
+
+
